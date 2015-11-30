@@ -46,6 +46,17 @@ var routes = [
         method: 'GET',
         path: '/contactus',
         handler: handlers.getContactUsView
+    },
+    {//here we want to return a view from a custom handler and pass in some parameters
+        method: 'GET',
+        path: '/samples',
+        config: {
+         handler: handlers.getSamplesView, 
+         app: {
+             title: "This is the Samples page",
+             message: "This is a small samples page message"
+        }
+     }
     }
 ];
 

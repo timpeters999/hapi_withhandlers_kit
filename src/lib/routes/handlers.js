@@ -14,5 +14,16 @@
 		reply.view('contactus', data);
 		
 	};
+	
+	handlers.getSamplesView =  function(request, reply){
+
+		var data = {
+                title: request.route.settings.app.title,
+                message: request.route.settings.app.message
+            };
+			
+		reply.view('samples', data);
+		
+	};
 
 module.exports = handlers;
