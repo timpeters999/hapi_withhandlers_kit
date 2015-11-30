@@ -1,0 +1,27 @@
+{
+  "name": "hapi_partialviews_kit",
+  "version": "1.0.0",
+  "description": "This is a starter kit for using Hapi and partial views",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timpeters999/hapi_partialviews_kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timpeters999/hapi_partialviews_kit/issues"
+  },
+  "homepage": "https://github.com/timpeters999/hapi_partialviews_kit#readme",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "hapi": "^11.1.2",
+    "inert": "^3.2.0",
+    "lodash": "^3.10.1",
+    "vision": "^4.0.1"
+  }
+}
